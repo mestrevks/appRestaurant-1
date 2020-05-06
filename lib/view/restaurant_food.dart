@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
-class SelectPage extends StatelessWidget {
+class RestaurantFoodPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: Center(
-          child: Text("Twin’s Bar & Restaurant"),
-        ),
+      appBar: AppBar(
+        title: Text("Twin’s Restaurant"),
       ),
+      body: Container(
+
+      ),
+      
     );
   }
 }
