@@ -10,7 +10,7 @@ class RestaurantFoodPage extends StatelessWidget {
       body: Container(
 
       ),
-      
+
     );
   }
 }

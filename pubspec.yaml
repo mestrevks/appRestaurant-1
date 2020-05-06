@@ -20,6 +20,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
+  flutter_masked_text: ^0.8.0
   cloud_firestore: ^0.13.5
   firebase_storage: ^3.1.5
   image_picker: ^0.6.5+3
@@ -50,18 +51,18 @@ flutter:
   #  - images/a_dot_ham.jpeg
 
   assets:
-    - images/background.jpeg
-    - images/background_home.jpg
-    - icons/black/config_black.svg
-    - icons/black/contact_black.svg
-    - icons/black/drink_black.svg
-    - icons/black/food_black.svg
-    - icons/black/home_black.svg
-    - icons/white/config_white.svg
-    - icons/white/contact_white.svg
-    - icons/white/drink_white.svg
-    - icons/white/food_white.svg
-    - icons/white/home_white.svg
+    - assets/images/background.jpeg
+    - assets/images/background_home.jpg
+    - assets/icons/black/config_black.svg
+    - assets/icons/black/contact_black.svg
+    - assets/icons/black/drink_black.svg
+    - assets/icons/black/food_black.svg
+    - assets/icons/black/home_black.svg
+    - assets/icons/white/config_white.svg
+    - assets/icons/white/contact_white.svg
+    - assets/icons/white/drink_white.svg
+    - assets/icons/white/food_white.svg
+    - assets/icons/white/home_white.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -85,6 +86,11 @@ flutter:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
+
+  fonts:
+    - family: Marguerite
+      fonts:
+        - asset: assets/fonts/marguerite.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
