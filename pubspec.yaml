@@ -50,19 +50,6 @@ flutter:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
 
-  assets:
-    - assets/images/background.jpeg
-    - assets/images/background_home.jpg
-    - assets/icons/black/config_black.svg
-    - assets/icons/black/contact_black.svg
-    - assets/icons/black/drink_black.svg
-    - assets/icons/black/food_black.svg
-    - assets/icons/black/home_black.svg
-    - assets/icons/white/config_white.svg
-    - assets/icons/white/contact_white.svg
-    - assets/icons/white/drink_white.svg
-    - assets/icons/white/food_white.svg
-    - assets/icons/white/home_white.svg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -91,6 +78,9 @@ flutter:
     - family: Marguerite
       fonts:
         - asset: assets/fonts/marguerite.ttf
+    - family: Capriola
+      fonts:
+        - asset: assets/fonts/Capriola-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
