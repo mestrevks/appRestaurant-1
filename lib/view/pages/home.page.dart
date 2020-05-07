@@ -1,7 +1,4 @@
-import 'package:app_restaurant_test/view/sheets/contact.sheet.dart';
-import 'package:app_restaurant_test/view/sheets/drink.sheet.dart';
-import 'package:app_restaurant_test/view/sheets/food.sheet.dart';
-import 'package:app_restaurant_test/view/sheets/home.sheet.dart';
+import 'package:app_restaurant_test/view/pages/standard.page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,10 +15,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return PageView(
       children: <Widget>[
-        HomeSheet(),
-        FoodSheet(),
-        DrinkSheet(),
-        ContactSheet(),
+        StandardPage(page: 'home',),
+        StandardPage(page: 'food',),
+        StandardPage(page: 'drink',),
+        StandardPage(page: 'contact',),
       ],
     );
   }
